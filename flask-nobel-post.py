@@ -6,7 +6,7 @@
 #flask run
 from flask import Flask, json, flash,render_template, session,request,jsonify,redirect, url_for
 import os
-import pandas as pd
+#import pandas as pd
 pd.set_option('display.max_columns',15)
 
 #create instance of Flask app
