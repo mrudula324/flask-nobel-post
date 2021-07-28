@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Flask Templates</title>
+</head>
+
+<body>
+  <div class="container">
+    <div class="jumbotron text-center">
+      <!-- Render our data -->
+      {{ data }}
+
+        <form action="#" method="post">
+        <!-- <p>Enter Year:</p>-->
+        <!-- <p><input type="text" year= year /></p> -->
+        <p>Enter Category:</p>
+        <p><input type="text" name= "category" /></p>
+        <p>Enter Laureates:</p>
+        <p>Enter ID:   <input type="text" name="id" /></p>
+        <p>Enter First Name:   <input type="text" name= "firstname"/></p>
+        <p>Enter Surname:   <input type="text" name= "surname" /></p>
+        <p>Enter Motivation:   <input type="text" name= "motivation"/></p>
+        <p>Enter Share:   <input type="text" name= "share" /></p>
+
+        <p><input type="submit" value="submit"/></p>
+    </form>
+     
+    </div>
+
+  </div>
+</body>
+
+</html>
